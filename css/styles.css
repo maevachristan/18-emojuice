@@ -19,12 +19,58 @@ header {
   background-color: #ffffffe8;
   color: #57bb6b;
   font-family: 'Quattrocento', serif;
-  font-size: 18px;
+  font-size: 19px;
   text-align: center;
   padding: 15px 60px 10px;
 }
 
 .emojuice-title {
   margin-bottom: 0;
+}
+
+.cta-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cta {
+  border-radius: 13px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.cta-dark {
+  background-color: #57bb6b;
+  color: #ffffff;
+  margin: 30px 0 17px;
+  padding: 10px 15px;
+}
+
+.cta-light {
+  background-color: #ffffff;
+  color: #57bb6b;
+  margin-bottom: 15px;
+  padding: 9px 14px;
+}
+
+p {
+  font-family: 'Quattrocento', serif;
+}
+
+.main-intro p {
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+.main-intro {
+  text-align: center;
+  padding: 55px 50px;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
 }
 
