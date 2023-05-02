@@ -59,6 +59,10 @@ p {
   font-family: 'Quattrocento', serif;
 }
 
+.main-intro img {
+  max-width: 35px;
+}
+
 .main-intro p {
   padding: 0 20px;
   font-size: 15px;
@@ -69,8 +73,61 @@ p {
   padding: 55px 50px;
 }
 
+.fruit-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
 h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 26px;
+  text-align: center;
 }
 
+h3 {
+  color: #000000;
+  font-family: 'Sriracha', sans-serif;
+  font-size: 30px;
+}
+
+.product-file {
+  background-color: #57bb6b;
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.fruit-box {
+  margin: 45px 35px;
+}
+
+.fruit-box img {
+  max-width: 100px;
+}
+
+.product-file p {
+  color: #00000085;
+}
+
+.product-file a {
+  color: #000000;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+}
+
+.banana-box {
+  background-color: #fff8d7;
+}
+
+.kiwi-box {
+  background-color: #c4f2ad;
+}
+
+.coffee-box {
+  background-color: #d3c6b2;
+}
+
+.strawberry-box {
+  background-color: #f7a4b4;
+}
