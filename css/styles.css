@@ -60,7 +60,7 @@ p {
 }
 
 .main-intro img {
-  max-width: 35px;
+  max-width: 30px;
 }
 
 .main-intro p {
@@ -75,9 +75,9 @@ p {
 
 .fruit-line {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 20px;
+  padding: 15px 0 25px;
 }
 
 h2 {
@@ -99,11 +99,11 @@ h3 {
 }
 
 .fruit-box {
-  margin: 45px 35px;
+  margin: 33px 30px;
 }
 
 .fruit-box img {
-  max-width: 100px;
+  max-width: 70px;
 }
 
 .product-file p {
@@ -130,4 +130,20 @@ h3 {
 
 .strawberry-box {
   background-color: #f7a4b4;
+}
+
+footer {
+  color: #57bb6b;
+  text-align: center;
+  padding: 0 50px;
+}
+
+footer img {
+  max-width: 30px;
+}
+
+.cta-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
