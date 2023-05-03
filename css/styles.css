@@ -95,15 +95,25 @@ h3 {
 .product-file {
   background-color: #57bb6b;
   color: #ffffff;
-  padding-top: 15px;
+  padding: 15px 0 10px;
 }
 
 .fruit-box {
-  margin: 33px 30px;
+  margin: 0 27px 45px;
+  padding: 1px 36px 25px;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .fruit-box img {
-  max-width: 70px;
+  max-width: 80px;
+  padding-left: 60px;
+}
+
+.product-file h2 {
+  padding-bottom: 13px;
 }
 
 .product-file p {
@@ -146,4 +156,10 @@ footer img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+footer p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 11px;
+  margin-bottom: 20px;
 }
