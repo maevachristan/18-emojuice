@@ -1,7 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 380px;
+  background-color: #ffffff;
   margin: auto;
-  background: #ffffff;
 }
 
 img {
@@ -20,11 +24,11 @@ header {
   color: #57bb6b;
   font-family: 'Quattrocento', serif;
   font-size: 19px;
-  text-align: center;
   padding: 15px 60px 10px;
+  text-align: center;
 }
 
-.emojuice-title {
+h1 {
   margin-bottom: 0;
 }
 
@@ -35,9 +39,9 @@ header {
 }
 
 .cta {
-  border-radius: 13px;
   font-family: 'Maven Pro', sans-serif;
   font-size: 20px;
+  border-radius: 13px;
   text-decoration: none;
 }
 
@@ -59,18 +63,14 @@ p {
   font-family: 'Quattrocento', serif;
 }
 
-.main-intro img {
-  max-width: 30px;
+.main-intro {
+  padding: 55px 50px;
+  text-align: center;
 }
 
 .main-intro p {
   padding: 0 20px;
   font-size: 15px;
-}
-
-.main-intro {
-  text-align: center;
-  padding: 55px 50px;
 }
 
 .fruit-line {
@@ -80,23 +80,24 @@ p {
   padding: 15px 0 25px;
 }
 
+.fruit-line img {
+  max-width: 30px;
+}
+
 h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 26px;
   text-align: center;
 }
 
-h3 {
-  color: #000000;
-  font-family: 'Sriracha', sans-serif;
-  font-size: 30px;
-  margin: 0;
-}
-
 .product-file {
   background-color: #57bb6b;
   color: #ffffff;
   padding: 15px 0 10px;
+}
+
+.product-file h2 {
+  padding-bottom: 13px;
 }
 
 .fruit-box {
@@ -109,25 +110,28 @@ h3 {
   align-items: baseline;
 }
 
-.fruit-box img {
-  max-width: 80px;
-  padding-left: 60px;
+h3 {
+  color: #000000;
+  font-family: 'Sriracha', sans-serif;
+  font-size: 30px;
+  margin: 0;
 }
 
-.product-file h2 {
-  padding-bottom: 13px;
-}
-
-.product-file p {
+.fruit-box p {
   color: #00000085;
   margin: 0;
   padding-bottom: 45px;
 }
 
-.product-file a {
+.fruit-box a {
   color: #000000;
   font-family: 'Maven Pro', sans-serif;
   font-weight: 600;
+}
+
+.fruit-box img {
+  max-width: 80px;
+  padding-left: 60px;
 }
 
 .banana-box {
@@ -148,20 +152,16 @@ h3 {
 
 footer {
   color: #57bb6b;
-  text-align: center;
   padding: 15px 50px 10px;
+  text-align: center;
 }
 
-footer img {
-  max-width: 30px;
+footer .cta-dark {
+  margin: 10px 40px;
 }
 
 footer p {
   font-family: 'Maven Pro', sans-serif;
   font-size: 11px;
   margin: 40px 0 20px;
-}
-
-footer .cta-dark {
-  margin: 10px 40px;
 }
